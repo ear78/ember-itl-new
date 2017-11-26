@@ -1,5 +1,16 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
 
-{{outlet}}
+{{#nav-bar tagName="nav"}}{{/nav-bar}}
+
+<!-- MOCK SLIDER PICTURE DESGIN -->
+<section class="slider-section">
+    <div class="slider-box">
+        <h1>ITL Monitoring</h1>
+        <p>iNOCC ITL network operations control center offers 24/7/365 days a year monitoring for your towers</p>
+    </div>
+</section>
+
+<div class="container">
+    {{outlet}}
+</div>
+
+{{#footer-bar tagName="footer" class="footer"}}{{/footer-bar}}

@@ -1,0 +1,9 @@
+<h1>Products</h1>
+{{#each model as |product|}}
+<div class="">
+    <h3>{{product.title}}</h3>
+    <img style="max-width:180px;" src="{{product.image}}" alt="">
+    <!-- <p>{{product.desc}}</p> -->
+</div>
+{{/each}}
+{{outlet}}
