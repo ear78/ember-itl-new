@@ -1,9 +1,9 @@
-<h1>Products</h1>
+<h1 class="products-title">Products</h1>
 {{#each model as |product|}}
-    {{#link-to 'products'}}
+
         <h3>{{product.title}}</h3>
         <img style="max-width:180px;" src="{{product.image}}" alt="">
-        <!-- <p>{{product.desc}}</p> -->
-    {{/link-to}}
+        <p>{{product.desc}}</p>
+
 {{/each}}
 {{outlet}}

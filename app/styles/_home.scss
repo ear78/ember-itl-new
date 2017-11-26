@@ -1,0 +1,50 @@
+@import "main";
+
+.slider-section {
+    position: relative;
+    background: url('https://www.itl-llc.com/images/homepage_slider/taipei101_lg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 500px;
+    margin-bottom: 50px;
+    .slider-box {
+        max-width: 425px;
+        padding: 20px;
+        position: absolute;
+        top: 0px;
+        left: 20px;
+        color: white;
+        h1 {
+            font-weight: 400;
+        }
+        p {
+            font-weight: 100;
+            font-size: 1.1em;
+        }
+    }
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 200;
+}
+
+.showcase {
+    .inner-box {
+        background: black;
+        padding-bottom: 5px;
+        color: $white;
+        margin-bottom: 10px;
+        h4 {
+            font-weight: 300;
+            padding-left: 15px;
+        }
+        i {
+            vertical-align: sub;
+            color: $teal;
+        }
+    }
+
+}
